@@ -46,5 +46,14 @@ public class Main{
         }else{
             System.out.println("DVD‚ğ‚İ‚Ü‚·");
         }
+
+        int count = 0;
+        while(tenki){
+            System.out.println("‘I‘ğ‚µ‚Ü‚·");
+            count++;
+            if(count > 5){
+                tenki = false;
+            }
+        }
     }
 }
