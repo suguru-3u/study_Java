@@ -55,5 +55,21 @@ public class Main{
                 tenki = false;
             }
         }
+
+        String a = "aaa";
+        if(a.equals("aaa")){
+            System.out.println("•¶š—ñ‚Ì•]‰¿¬Œ÷");
+        }
+
+        switch(count){
+            case 0:
+                System.out.println("0‚Å‚·I");
+                break;
+            case 1:
+                System.out.println("1‚Å‚·I");
+                break;
+            default:
+            System.out.println("‚æ‚­‚í‚©‚ç‚È‚¢");
+        }
     }
 }
