@@ -40,36 +40,40 @@ public class Main{
         // System.out.println("１：大吉　２：中吉　３：吉　４：凶");
 
         // 3章スタート
-        boolean tenki = true;
-        if(tenki){
-            System.out.println("選択します");
-        }else{
-            System.out.println("DVDをみます");
-        }
+        // boolean tenki = true;
+        // if(tenki){
+        //     System.out.println("選択します");
+        // }else{
+        //     System.out.println("DVDをみます");
+        // }
 
-        int count = 0;
-        while(tenki){
-            System.out.println("選択します");
-            count++;
-            if(count > 5){
-                tenki = false;
-            }
-        }
+        // int count = 0;
+        // while(tenki){
+        //     System.out.println("選択します");
+        //     count++;
+        //     if(count > 5){
+        //         tenki = false;
+        //     }
+        // }
 
-        String a = "aaa";
-        if(a.equals("aaa")){
-            System.out.println("文字列の評価成功");
-        }
+        // String a = "aaa";
+        // if(a.equals("aaa")){
+        //     System.out.println("文字列の評価成功");
+        // }
 
-        switch(count){
-            case 0:
-                System.out.println("0です！");
-                break;
-            case 1:
-                System.out.println("1です！");
-                break;
-            default:
-            System.out.println("よくわからない");
+        // switch(count){
+        //     case 0:
+        //         System.out.println("0です！");
+        //         break;
+        //     case 1:
+        //         System.out.println("1です！");
+        //         break;
+        //     default:
+        //     System.out.println("よくわからない");
+        // }
+
+        for(int i = 0 ; i < 10 ; i++){
+            System.out.println("こんにちわ！");
         }
     }
 }
