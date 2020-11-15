@@ -72,8 +72,22 @@ public class Main{
         //     System.out.println("‚æ‚­‚í‚©‚ç‚È‚¢");
         // }
 
-        for(int i = 0 ; i < 10 ; i++){
-            System.out.println("‚±‚ñ‚É‚¿‚íI");
+        // for(int i = 0 ; i < 10 ; i++){
+        //     System.out.println("‚±‚ñ‚É‚¿‚íI");
+        // }
+
+        for(int i = 1 ; i < 10 ; i++){
+            if(i == 2){
+                continue;
+            }
+            if(i == 4){
+                break;
+            }
+            for(int j = 1 ; j < 10 ; j++){
+                System.out.print(i * j);
+                System.out.print(" ");
+            }
+            System.out.println(" ");
         }
     }
 }
