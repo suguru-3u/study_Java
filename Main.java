@@ -104,8 +104,21 @@ public class Main{
         // System.out.println("ご馳走様でした");
 
         // 4章スタート
-        int[] scores = new int[5];
+        int[] scores = {20,30,40,20,30};
         int num = scores.length;
         System.out.println(num);
+        for(int value : scores){
+            System.out.println(value);
+        }
+
+        // 4章課題
+        int[] numbers = {3,4,9};
+        System.out.println("1桁の数字を入力してください");
+        int input = new java.util.Scanner(System.in).nextInt();
+        for(int value : numbers){
+            if(value == input){
+                System.out.println("当たり");
+            }
+        }
     }
 }
