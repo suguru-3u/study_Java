@@ -76,18 +76,36 @@ public class Main{
         //     System.out.println("こんにちわ！");
         // }
 
-        for(int i = 1 ; i < 10 ; i++){
-            if(i == 2){
-                continue;
-            }
-            if(i == 4){
-                break;
-            }
-            for(int j = 1 ; j < 10 ; j++){
-                System.out.print(i * j);
-                System.out.print(" ");
-            }
-            System.out.println(" ");
-        }
+        // for(int i = 1 ; i < 10 ; i++){
+        //     if(i == 2){
+        //         continue;
+        //     }
+        //     if(i == 4){
+        //         break;
+        //     }
+        //     for(int j = 1 ; j < 10 ; j++){
+        //         System.out.print(i * j);
+        //         System.out.print(" ");
+        //     }
+        //     System.out.println(" ");
+        // }
+
+        // 3章の課題
+        // int isHungry = 1;
+        // String food = "寿司";
+
+        // System.out.println("こんにちわ！");
+        // if(isHungry == 0){
+        //     System.out.println("お腹いっぱいです");
+        // }else{
+        //     System.out.println("お腹減っています。");
+        //     System.out.println(food + "をいただきます");
+        // }
+        // System.out.println("ご馳走様でした");
+
+        // 4章スタート
+        int[] scores = new int[5];
+        int num = scores.length;
+        System.out.println(num);
     }
 }
