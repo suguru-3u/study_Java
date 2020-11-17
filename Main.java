@@ -131,12 +131,15 @@ public class Main{
         // }
 
         // 5章スタート
-        hello();
-
+        String name = "田中";
+        int helloMethodResulr = hello(10,20);
+        System.out.println(helloMethodResulr);
         
     }
     
-    public static void hello(){
-        System.out.println("こんにちわ");
+    public static int hello(int a , int b){
+        int sum;
+        sum = a + b;
+        return sum;
     }
 }
