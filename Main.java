@@ -112,22 +112,31 @@ public class Main{
         // }
 
         // // 4章課題
-        int[] numbers = {3,4,9};
-        System.out.println("1桁の数字を入力してください");
-        int input = new java.util.Scanner(System.in).nextInt();
-        for(int value : numbers){
-            if(value == input){
-                System.out.println("当たり");
-            }
-        }
+        // int[] numbers = {3,4,9};
+        // System.out.println("1桁の数字を入力してください");
+        // int input = new java.util.Scanner(System.in).nextInt();
+        // for(int value : numbers){
+        //     if(value == input){
+        //         System.out.println("当たり");
+        //     }
+        // }
 
-        int[] numbers = {3,4,9};
-        System.out.println("1桁の数字を入力してください");
-        int input = new java.util.Scanner(System.in).nextInt();
-        for(int value : numbers){
-            if(value == input){
-                System.out.println("当たり");
-            }
-        }
+        // int[] numbers = {3,4,9};
+        // System.out.println("1桁の数字を入力してください");
+        // int input = new java.util.Scanner(System.in).nextInt();
+        // for(int value : numbers){
+        //     if(value == input){
+        //         System.out.println("当たり");
+        //     }
+        // }
+
+        // 5章スタート
+        hello();
+
+        
+    }
+    
+    public static void hello(){
+        System.out.println("こんにちわ");
     }
 }
